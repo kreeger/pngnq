@@ -20,11 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-    require 'pngnq'
+``` ruby
+require 'pngnq'
 
-    Pngnq.convert('path/to/some/file.png')
-    # or
-    Pngnq.convert('path/to/some/file.png', :colors => 128, :speed => 3)
+Pngnq.convert('path/to/some/file.png')
+# or
+Pngnq.convert('path/to/some/file.png', :colors => 128, :speed => 3)
+```
 
 ## Contributing
 
