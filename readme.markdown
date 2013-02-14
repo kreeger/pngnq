@@ -18,12 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'pngnq'
+
+    Pngnq.convert('path/to/some/file.png')
+    # or
+    Pngnq.convert('path/to/some/file.png', :colors => 128, :speed => 3)
 
 ## Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+3. Write some code, and some specs to go with it.
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create a new pull request.

@@ -20,5 +20,9 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'cocaine'
   gem.add_runtime_dependency 'posix-spawn'
 
+  gem.add_development_dependency 'yard'
   gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'vcr'
+  gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'debugger'
 end
