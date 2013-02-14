@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Pngnq::VERSION
   gem.authors       = ["Ben Kreeger"]
   gem.email         = ["ben@kree.gr"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "A Ruby wrapper around pngnq's command-line interface."
+  gem.summary       = "A Ruby wrapper around pngnq's command-line interface."
+  gem.homepage      = "https://github.com/kreeger/pngnq"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
