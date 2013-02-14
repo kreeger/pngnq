@@ -28,6 +28,8 @@ Pngnq.convert('path/to/some/file.png')
 Pngnq.convert('path/to/some/file.png', :colors => 128, :speed => 3)
 ```
 
+Also, [read the docs](http://www.rubydoc.info/github/kreeger/pngnq/Pngnq).
+
 ## Contributing
 
 1. Fork it
