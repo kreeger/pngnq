@@ -1,4 +1,4 @@
-# pngnq gem
+# pngnq
 
 A Ruby wrapper around `pngnq`'s command-line interface.
 
@@ -15,6 +15,8 @@ And then execute:
 Or install it yourself as:
 
     $ gem install pngnq
+
+**You must also have `pngnq` binaries installed and accessible on your path.**
 
 ## Usage
 
